@@ -4,6 +4,6 @@
 
 // load all necessary modules
 const createDB = require("./lib/createDB");
-const createLog = require("./lib/createLog");
+const createWinstonLog = require("./lib/createWinstonLog");
 
-module.exports = { createDB, createLog };
+module.exports = { createDB, createWinstonLog };
