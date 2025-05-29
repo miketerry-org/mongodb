@@ -1,6 +1,6 @@
 {
   "name": "keeno-mongodb",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Implments function to create mongodb connections and winston logger using mongodb",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "keeno-schema": "^0.4.0",
-    "keeno-system": "^0.2.0",
+    "keeno-schema": "^0.4.1",
+    "keeno-system": "^0.2.1",
     "mongoose": "^8.15.0",
     "winston": "^3.17.0",
     "winston-mongodb": "^6.0.0"
